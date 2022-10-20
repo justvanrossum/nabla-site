@@ -1,37 +1,12 @@
-function fnBrowserDetect() {
-  let userAgent;
-  let browserName;
-
-  if (navigator.userAgentData) {
-    let userAgentnew = navigator.userAgentData.brands;
-    let theBrand = userAgentnew[0];
-    userAgent = theBrand.brand;
-  } else {
-    userAgent = navigator.userAgent;
-  }
-  if (userAgent.match(/chrome|chromium|crios/i)) {
-    browserName = "chrome";
-  } else if (userAgent.match(/firefox|fxios/i)) {
-    browserName = "firefox";
-  } else if (userAgent.match(/safari/i)) {
-    browserName = "safari";
-  } else if (userAgent.match(/opr\//i)) {
-    browserName = "opera";
-  } else if (userAgent.match(/edg/i)) {
-    browserName = "edge";
-  } else {
-    browserName = "no_browser_detected";
-  }
-  document.querySelector("body").className = browserName;
-
-  if (browserName == "chrome" ) {}
-  else if (browserName == "edge" ) {}
-  else{
-    const matches = document.querySelectorAll(".COLRv1_setting");
-    matches.forEach((match) => {
-      match.setAttribute('disabled', true);
-    });
-  }
+let elem = document.documentElement.outerHTML;
+let chromacheck = elem.classList.contains("chromacheck-colrv1");
+if(chromacheck){
+    // console.log("COLRv1 feature support");
+}else{
+  const matches = document.querySelectorAll(".COLRv1_setting");
+  matches.forEach((match) => {
+    match.setAttribute('disabled', true);
+  });
 }
 
 const fontVariationSettings = {
