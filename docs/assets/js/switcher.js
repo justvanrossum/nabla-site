@@ -1,17 +1,18 @@
-let elem = document.documentElement.outerHTML;
+const fontVariationSettings = {
+  /* slider handlers store their axis values here */
+}
+
+let elem = document.documentElement;
 let chromacheck = elem.classList.contains("chromacheck-colrv1");
 if(chromacheck){
-    // console.log("COLRv1 feature support");
-}else{
+    console.log("this browser supports COLRv1");
+} else {
   const matches = document.querySelectorAll(".COLRv1_setting");
   matches.forEach((match) => {
     match.setAttribute('disabled', true);
   });
 }
 
-const fontVariationSettings = {
-  /* slider handlers store their axis values here */
-}
 
 /* color variations */
 function depthAxisHandler(value) {
@@ -76,7 +77,6 @@ function onLoad() {
   for (const element of document.querySelectorAll(".slider")) {
     element.oninput(element.value);
   }
-  fnBrowserDetect();
 }
 
 // this should be simplified... 
