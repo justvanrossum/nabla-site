@@ -2,17 +2,6 @@ const fontVariationSettings = {
   /* slider handlers store their axis values here */
 }
 
-let elem = document.documentElement;
-let chromacheck = elem.classList.contains("chromacheck-colrv1");
-if(chromacheck){
-    console.log("this browser supports COLRv1");
-} else {
-  const matches = document.querySelectorAll(".COLRv1_setting");
-  matches.forEach((match) => {
-    match.setAttribute('disabled', true);
-  });
-}
-
 
 /* color variations */
 function depthAxisHandler(value) {
