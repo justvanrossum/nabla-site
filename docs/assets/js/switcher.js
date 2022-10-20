@@ -24,7 +24,9 @@ function fnBrowserDetect() {
   }
   document.querySelector("body").className = browserName;
 
-  if (browserName != "chrome") {
+  if (browserName == "chrome" ) {}
+  else if (browserName == "edge" ) {}
+  else{
     const matches = document.querySelectorAll(".COLRv1_setting");
     matches.forEach((match) => {
       match.setAttribute('disabled', true);

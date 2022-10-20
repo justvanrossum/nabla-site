@@ -335,7 +335,9 @@ body {
 		
 }
 
-.chrome{
+.chromacheck-colrv1,
+.chrome,
+.edge{
 	.animation{
 		.color-anim{
 			&.yellow,
@@ -848,6 +850,7 @@ html.sb-static .sb-slidebar {
 .COLRv1_setting{
 	opacity: 0.25;
 }
+.chromacheck-colrv1 .COLRv1_setting,
 .chrome .COLRv1_setting{
 	// display: initial;
 	opacity: 1;

@@ -4794,66 +4794,102 @@ h6 {
   padding: 3vw 0 0;
 }
 
-.chrome .animation .color-anim.yellow, .chrome .animation .color-anim.line1 {
+.chromacheck-colrv1 .animation .color-anim.yellow, .chromacheck-colrv1 .animation .color-anim.line1,
+.chrome .animation .color-anim.yellow,
+.chrome .animation .color-anim.line1,
+.edge .animation .color-anim.yellow,
+.edge .animation .color-anim.line1 {
   font-variation-settings: "EDPT" 0;
 }
-.chrome .animation .color-anim.yellow span, .chrome .animation .color-anim.line1 span {
+.chromacheck-colrv1 .animation .color-anim.yellow span, .chromacheck-colrv1 .animation .color-anim.line1 span,
+.chrome .animation .color-anim.yellow span,
+.chrome .animation .color-anim.line1 span,
+.edge .animation .color-anim.yellow span,
+.edge .animation .color-anim.line1 span {
   -webkit-animation: depthcharge 3s ease-in-out alternate infinite;
           animation: depthcharge 3s ease-in-out alternate infinite;
 }
-.chrome .animation .color-anim.blue {
+.chromacheck-colrv1 .animation .color-anim.blue,
+.chrome .animation .color-anim.blue,
+.edge .animation .color-anim.blue {
   font-palette: --blue;
   font-variation-settings: "EDPT" 200;
 }
-.chrome .animation .color-anim.blue span {
+.chromacheck-colrv1 .animation .color-anim.blue span,
+.chrome .animation .color-anim.blue span,
+.edge .animation .color-anim.blue span {
   -webkit-animation: depthuncharge 3s ease-in-out alternate infinite;
           animation: depthuncharge 3s ease-in-out alternate infinite;
 }
-.chrome .animation .color-anim.red {
+.chromacheck-colrv1 .animation .color-anim.red,
+.chrome .animation .color-anim.red,
+.edge .animation .color-anim.red {
   font-palette: --red;
   font-variation-settings: "EDPT" 0;
 }
-.chrome .animation .color-anim.red span {
+.chromacheck-colrv1 .animation .color-anim.red span,
+.chrome .animation .color-anim.red span,
+.edge .animation .color-anim.red span {
   -webkit-animation: depthcharge 3s ease-in-out alternate infinite;
           animation: depthcharge 3s ease-in-out alternate infinite;
 }
-.chrome .animation .color-anim span {
+.chromacheck-colrv1 .animation .color-anim span,
+.chrome .animation .color-anim span,
+.edge .animation .color-anim span {
   position: relative;
   display: inline-block;
 }
-.chrome .animation .color-anim span:nth-child(1) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(1),
+.chrome .animation .color-anim span:nth-child(1),
+.edge .animation .color-anim span:nth-child(1) {
   -webkit-animation-delay: 0.333333s;
           animation-delay: 0.333333s;
 }
-.chrome .animation .color-anim span:nth-child(2) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(2),
+.chrome .animation .color-anim span:nth-child(2),
+.edge .animation .color-anim span:nth-child(2) {
   -webkit-animation-delay: 0.666666s;
           animation-delay: 0.666666s;
 }
-.chrome .animation .color-anim span:nth-child(3) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(3),
+.chrome .animation .color-anim span:nth-child(3),
+.edge .animation .color-anim span:nth-child(3) {
   -webkit-animation-delay: 0.999999s;
           animation-delay: 0.999999s;
 }
-.chrome .animation .color-anim span:nth-child(4) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(4),
+.chrome .animation .color-anim span:nth-child(4),
+.edge .animation .color-anim span:nth-child(4) {
   -webkit-animation-delay: 1.333332s;
           animation-delay: 1.333332s;
 }
-.chrome .animation .color-anim span:nth-child(5) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(5),
+.chrome .animation .color-anim span:nth-child(5),
+.edge .animation .color-anim span:nth-child(5) {
   -webkit-animation-delay: 1.666665s;
           animation-delay: 1.666665s;
 }
-.chrome .animation .color-anim span:nth-child(6) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(6),
+.chrome .animation .color-anim span:nth-child(6),
+.edge .animation .color-anim span:nth-child(6) {
   -webkit-animation-delay: 1.999998s;
           animation-delay: 1.999998s;
 }
-.chrome .animation .color-anim span:nth-child(7) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(7),
+.chrome .animation .color-anim span:nth-child(7),
+.edge .animation .color-anim span:nth-child(7) {
   -webkit-animation-delay: 2.333331s;
           animation-delay: 2.333331s;
 }
-.chrome .animation .color-anim span:nth-child(8) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(8),
+.chrome .animation .color-anim span:nth-child(8),
+.edge .animation .color-anim span:nth-child(8) {
   -webkit-animation-delay: 2.666664s;
           animation-delay: 2.666664s;
 }
-.chrome .animation .color-anim span:nth-child(9) {
+.chromacheck-colrv1 .animation .color-anim span:nth-child(9),
+.chrome .animation .color-anim span:nth-child(9),
+.edge .animation .color-anim span:nth-child(9) {
   -webkit-animation-delay: 2.999997s;
           animation-delay: 2.999997s;
 }
@@ -5304,6 +5340,7 @@ html.sb-static .sb-slidebar {
   opacity: 0.25;
 }
 
+.chromacheck-colrv1 .COLRv1_setting,
 .chrome .COLRv1_setting {
   opacity: 1;
 }
